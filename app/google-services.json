@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "439734853374",
-    "project_id": "ejemplologin-1b398",
-    "storage_bucket": "ejemplologin-1b398.firebasestorage.app"
+    "project_number": "679793075062",
+    "project_id": "ejemplologin-e95e1",
+    "storage_bucket": "ejemplologin-e95e1.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:439734853374:android:65c563f055f545515c0faf",
+        "mobilesdk_app_id": "1:679793075062:android:cab92d43fb934bc0f21057",
         "android_client_info": {
           "package_name": "sanchez.abel.practicaautenticacionsancheza"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC5r3nVDyJC5Blu5ISDGwBKLwUu44QVFbs"
+          "current_key": "AIzaSyCWEQl-YCjTXYdV5AvH7ZqNuLzfGzxSjwo"
         }
       ],
       "services": {
