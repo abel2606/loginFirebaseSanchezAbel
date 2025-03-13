@@ -12,9 +12,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.auth
+
 
 class SignInActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
@@ -28,7 +27,7 @@ class SignInActivity : AppCompatActivity() {
             insets
         }
 
-        auth = Firebase.auth
+        auth = FirebaseAuth.getInstance()
         val email: EditText = findViewById(R.id.etrEmail)
         val password: EditText = findViewById(R.id.etrPassword)
         val confirmPassword: EditText = findViewById(R.id.etrConfirmPassword)
